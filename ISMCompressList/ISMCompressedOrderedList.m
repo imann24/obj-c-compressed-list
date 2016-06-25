@@ -10,6 +10,8 @@
 
 @implementation ISMCompressedOrderedList
 
+// TODO: Fully implement functionality of ordering
+
 // Adds to the end of the list
 - (void) addElement:(NSObject *)element {
     if ([self.internalList containsObject:element]) {
